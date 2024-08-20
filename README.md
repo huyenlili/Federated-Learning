@@ -51,7 +51,7 @@ The CNN architecture used for the image classification task is as follows:
          Kernel size: 2x2
          Stride: 2  
      - **Fully Connected Layer 1**:  
-         Input features: 51222  
+         Input features: 512*2*2  
          Output features: 1024  
          Batch Normalization  
      - **Fully Connected Layer 2**:  
