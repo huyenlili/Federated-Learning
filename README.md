@@ -94,16 +94,16 @@ The plot illustrates the performance of two federated learning algorithms, FedAv
 
 **FedAvg Performance:**
     - IID Case: The FedAvg algorithm shows a steady increase in accuracy, reaching a plateau around 90%. This suggests that FedAvg effectively leverages the IID data distribution, allowing it to learn from the global model efficiently.
-    - Non-IID Case: The accuracy of FedAvg under Non-IID conditions is significantly lower, fluctuating around 30-40%. This indicates that the algorithm struggles to generalize when data is not uniformly distributed among clients.
+    - Non-IID Case: The accuracy of FedAvg under Non-IID conditions is significantly lower, fluctuating around 30-40%. This indicates that the algorithm struggles to generalize when data is not uniformly distributed among clients.  
 **FedProx Performance:**
     - IID Case: FedProx also performs well with IID data, achieving comparable results to FedAvg, but with slightly more stability in the later rounds. This may be due to its ability to handle local model divergence better.
-    - Non-IID Case: Like FedAvg, FedProx shows reduced accuracy in Non-IID scenarios, but it maintains a somewhat higher level of accuracy compared to FedAvg, oscillating around 40-50%. This suggests that FedProx's additional regularization term helps mitigate the challenges posed by the Non-IID distribution.
+    - Non-IID Case: Like FedAvg, FedProx shows reduced accuracy in Non-IID scenarios, but it maintains a somewhat higher level of accuracy compared to FedAvg, oscillating around 40-50%. This suggests that FedProx's additional regularization term helps mitigate the challenges posed by the Non-IID distribution.  
 **Comparison Between Algorithms:**
     In IID settings, both algorithms converge similarly, highlighting their effectiveness in well-distributed data scenarios.
-    In contrast, under Non-IID conditions, FedProx outperforms FedAvg, indicating that the additional complexity introduced by FedProx is beneficial in handling non-uniform data distributions.
+    In contrast, under Non-IID conditions, FedProx outperforms FedAvg, indicating that the additional complexity introduced by FedProx is beneficial in handling non-uniform data distributions.  
 **Implications:**
     - Model Selection: The choice of algorithm is crucial depending on the data distribution. For scenarios where data is likely to be Non-IID, FedProx may be a more suitable choice due to its robustness.
-    - Further Research: Investigating hybrid approaches or tuning the parameters of FedProx could lead to improved performance across both IID and Non-IID settings.
+    - Further Research: Investigating hybrid approaches or tuning the parameters of FedProx could lead to improved performance across both IID and Non-IID settings.  
 **Conclusion:**
     The results underscore the importance of considering data distribution in federated learning applications. While both FedAvg and FedProx demonstrate strengths, FedProx shows a notable advantage in handling challenges posed by Non-IID data distributions, making it a viable option for real-world federated learning scenarios.
 
