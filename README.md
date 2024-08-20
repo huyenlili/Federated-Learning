@@ -23,38 +23,38 @@ The CNN architecture used for the image classification task is as follows:
 **Input:**
     Input image size: 32x32 pixels with 3 channels (RGB).  
 **Layers:**  
-     - Convolutional Layer 1:  
+     - **Convolutional Layer 1**:  
         Input channels: 3 (RGB)  
         Output channels: 64  
         Kernel size: 3x3  
         Padding: 1  
         Batch Normalization  
-     - Convolutional Layer 2:  
+     - **Convolutional Layer 2**:  
          Input channels: 64  
          Output channels: 128  
          Kernel size: 3x3  
          Padding: 1  
          Batch Normalization  
-     - Convolutional Layer 3:  
+     - **Convolutional Layer 3**:  
          Input channels: 128  
          Output channels: 256  
          Kernel size: 3x3  
          Padding: 1  
          Batch Normalization  
-     - Convolutional Layer 4:  
+     - **Convolutional Layer 4**:  
          Input channels: 256  
          Output channels: 512  
          Kernel size: 3x3  
          Padding: 1  
          Batch Normalization  
-     - Max Pooling Layer:  
+     - **Max Pooling Layer**:  
          Kernel size: 2x2
          Stride: 2  
-     - Fully Connected Layer 1:  
+     - **Fully Connected Layer 1**:  
          Input features: 51222  
          Output features: 1024  
          Batch Normalization  
-     - Fully Connected Layer 2:  
+     - **Fully Connected Layer 2**:  
          Input features: 1024  
          Output features: 512  
          Batch Normalization  
