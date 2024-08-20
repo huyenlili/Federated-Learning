@@ -107,7 +107,7 @@ The plot illustrates the performance of two federated learning algorithms, FedAv
 **Conclusion:**
     The results underscore the importance of considering data distribution in federated learning applications. While both FedAvg and FedProx demonstrate strengths, FedProx shows a notable advantage in handling challenges posed by Non-IID data distributions, making it a viable option for real-world federated learning scenarios.
 
-### 7. Instructions to Run the Code
+### 7. Instructions to Run the Code  
 
 **Clone the Repository**:
 ```bash
