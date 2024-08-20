@@ -23,7 +23,7 @@ The CNN architecture used for the image classification task is as follows:
 **Input:**
     Input image size: 32x32 pixels with 3 channels (RGB).  
 **Layers:**  
-    - Convolutional Layer 1:
+    - Convolutional Layer 1:  
         Input channels: 3 (RGB)  
         Output channels: 64  
         Kernel size: 3x3  
@@ -33,7 +33,7 @@ The CNN architecture used for the image classification task is as follows:
         Input channels: 64  
         Output channels: 128  
         Kernel size: 3x3  
-        Padding: 1
+        Padding: 1  
         Batch Normalization  
     - Convolutional Layer 3:  
         Input channels: 128  
